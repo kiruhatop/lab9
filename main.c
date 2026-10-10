@@ -32,7 +32,7 @@ int main(void) {
 	    }
 	}
     long long total = 0;
-    printf("Matrix:\n");
+    printf("\nMatrix:\n");
     for (int row = 0; row < rows; row++) {
         long long rowSum = 0;
         for (int col = 0; col < cols; col++) {
